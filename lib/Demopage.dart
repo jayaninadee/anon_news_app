@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/Components/LoadingContainer.dart';
+// import 'package:news_app/Components/LoadingContainer.dart';
 
 
 class DemoPage extends StatelessWidget {

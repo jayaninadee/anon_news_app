@@ -81,7 +81,7 @@ class NewsController extends GetxController {
     isNewsForULoading.value = false;
   }
 
-Future<void> getBusinessNews() async {
+  Future<void> getBusinessNews() async {
     isBuisLoading.value = true;
     var baseURL =
         "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=914ea81f3e6d40608483113e541a8d96";
@@ -153,7 +153,6 @@ Future<void> getBusinessNews() async {
     isTeslaLoading.value = false;
   }
 
-  
   Future<void> searchNews(String search) async {
     isNewsForULoading.value = true;
     var baseURL =
